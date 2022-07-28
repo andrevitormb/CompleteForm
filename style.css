@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body::before{
+    content: '';
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #121214;
+    z-index: -1;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+    background: #e5e5e5;
+}
+
+header{
+    width: 736px;
+    margin: auto;
+
+}
+
+.page{
+    width: 319px;
+    margin-top: 74px;
+}
+header h1{
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: white;
+
+    margin-bottom: 24px;
+}
+
+header p{
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #42d3ff;
+}
+
+form{
+    margin-top: 38px;
+    background: #fafafc;
+    border-radius: 8px 8px 0 0;
+    min-height: 300px;
+
+    padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+}
+
+fieldset {
+    border: none;
+
+}
+
+.fieldset-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+fieldset legend{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+
+    width: 100%;
+    
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E6E6F0;
+} 
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label,
+.checkbox-wrapper label{
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #4e4958;
+
+    margin-bottom: 8px;
+}
+
+.input-wrapper label span{
+    font-size: 12px;
+    line-height: 20px;
+    
+    margin-left: 16px;
+
+    color: #C1BCCC;
+}
+
+.input-wrapper span:hover{
+    color:#64616a
+}
+
+.input-wrapper input, 
+.input-wrapper textarea,
+.input-wrapper select {
+    background: #FAFAFC;
+    
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    
+    height: 56px;
+    
+    padding: 0 24px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #64616a;
+}
+
+.input-wrapper select {
+    padding: 0 24px;
+}
+
+.input-wrapper textarea {
+    padding: 24px;
+    height: 168px;
+    width: 608px;
+}
+
+.input-wrapper select{
+    appearance: none;
+    -webkit-appearance: none;
+
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 10L12 14L16 10' stroke='%239C98A6' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E ");
+    background-repeat: no-repeat;
+    background-position: right 24px top 50%; 
+}
+
+.checkbox-wrapper label{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0;
+}
+
+.checkbox-wrapper{
+    position: relative;
+}
+
+.checkbox-wrapper input{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+
+    opacity: 0;
+}
+
+.checkbox-wrapper input:focus + label::before{
+    outline: 2px solid black;
+}
+
+.checkbox-wrapper input:checked + label::before{
+    background-image: url("data:image/svg+xml,%3Csvg width='18' height='14' viewBox='0 0 18 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 11.17L1.83 7L0.410004 8.41L6 14L18 2L16.59 0.589996L6 11.17Z' fill='%2342D3FF'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: right 50% top 50%;
+
+}
+
+.checkbox-wrapper label::before{
+    content: '';
+    width: 24px;
+    height: 24px;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    display: block;
+}
+
+.col-3{
+    display: flex;
+    gap: 20px
+}
+.col-3 > div:nth-child(1){
+    width: 100%;
+}
+footer{
+    background: #F0F0F4;
+
+    height: 136px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding:  40px 64px;
+
+    margin-bottom: 56px;
+
+    border-top: 1px solid #D6D6D6;
+
+    border-radius: 0 0 8px 8px;
+}
+
+footer .button{
+    background: #04D361;
+    color: white;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    
+    height: 56px;
+
+    border-radius: 8px;
+    border: 0;
+}
+
+footer .button:hover{
+    background: #03883f;
+}
+
+input:invalid{
+    border: 1px solid red;
+}
