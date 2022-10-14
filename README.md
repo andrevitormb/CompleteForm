@@ -34,11 +34,11 @@
 👯‍♀️ Day and hour  
 
 ## Contact me 
+[![My Skills](https://skillicons.dev/icons?i=linkedin&perline=3)](https://pt.linkedin.com/in/andre-macedo-a99b02243)
+
+## Let's set up a beer
 
 [![My Skills](https://skillicons.dev/icons?i=instagram&perline=3)](https://www.instagram.com/andrevitor_macedo/)
-
-[![My Skills](https://skillicons.dev/icons?i=linkesdin&perline=3)](https://pt.linkedin.com/in/andre-macedo-a99b02243)
-
 
 
 
