@@ -1,8 +1,7 @@
 
 # Complete Form to be used in events. 
 
-## Outras seções comuns em perfis do GitHub
-👩‍💻  Which was used in this project 
+👩‍💻  ##Which was used in this project 
 
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,figma&theme=dark)](https://skills.thijs.gg)
 
@@ -11,7 +10,7 @@
 ⚡️ Fill Validation
 ⚡️ Data Validation
 
-🧠 I searched for everything a form needs to be useful 
+🧠 ##I searched for everything a form needs to be useful 
 
 👯‍♀️ Event Title
 👯‍♀️ Event Link
@@ -25,6 +24,9 @@
 
 
 [![My Skills](https://skillicons.dev/icons?i=instagram&perline=3)](https://www.instagram.com/andrevitor_macedo/)
+[![My Skills](https://skillicons.dev/icons?i=linkedin&perline=3)](https://pt.linkedin.com/in/andre-macedo-a99b02243)
+
+
 
 
 
